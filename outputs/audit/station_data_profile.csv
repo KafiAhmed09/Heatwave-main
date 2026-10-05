@@ -1,0 +1,7 @@
+station,display_station,rows,unique_dates,start_date,end_date,missing_calendar_dates,threshold_days_gt_36,threshold_days_ge_36
+Ambagan(ctg),Chattogram (Ambagan),2008,2008,2019-01-01,2024-06-30,0,63,70
+Dhaka,Dhaka,2008,2008,2019-01-01,2024-06-30,0,164,185
+Gopalgonj,Gopalganj,2008,2008,2019-01-01,2024-06-30,0,123,150
+Rajshahi,Rajshahi,2008,2008,2019-01-01,2024-06-30,0,354,418
+Rangpur,Rangpur,2008,2008,2019-01-01,2024-06-30,0,103,128
+Sylhet,Sylhet,2008,2008,2019-01-01,2024-06-30,0,119,139

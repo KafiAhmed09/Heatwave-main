@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "target": "TMAX",
+  "forecast_block_days": 7,
+  "rolling_origin_update": "Parameters fixed within each outer fold; observed history/state updated at each weekly origin.",
+  "folds": [
+    {
+      "name": "val_2022",
+      "role": "validation",
+      "train_end": "2021-12-31",
+      "test_start": "2022-01-01",
+      "test_end": "2022-12-31"
+    },
+    {
+      "name": "val_2023",
+      "role": "validation",
+      "train_end": "2022-12-31",
+      "test_start": "2023-01-01",
+      "test_end": "2023-12-31"
+    },
+    {
+      "name": "test_2024H1",
+      "role": "final_test",
+      "train_end": "2023-12-31",
+      "test_start": "2024-01-01",
+      "test_end": "2024-06-30"
+    }
+  ],
+  "lags": [
+    1,
+    2,
+    3,
+    7,
+    14,
+    30,
+    365
+  ],
+  "rolling_windows": [
+    3,
+    7,
+    14,
+    30
+  ],
+  "primary_heatwave_threshold_operator": ">",
+  "sensitivity_heatwave_threshold_operator": ">=",
+  "heatwave_threshold_c": 36.0,
+  "minimum_consecutive_days": 3,
+  "model_selection_rule": "Lowest mean validation RMSE across 2022 and 2023; final 2024H1 test is not used for selection."
+}

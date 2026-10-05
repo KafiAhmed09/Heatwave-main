@@ -1,0 +1,160 @@
+model,parameters,inner_rmse,fold,failures,station,converged,iterations
+Ridge_AR,"{""alpha"": 100.0}",1.816293469346208,val_2022,,,,
+Ridge_AR,"{""alpha"": 10.0}",1.85479176764898,val_2022,,,,
+Ridge_AR,"{""alpha"": 1.0}",1.8637726404022985,val_2022,,,,
+Ridge_AR,"{""alpha"": 0.1}",1.864777709932394,val_2022,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 30}",2.006401781423247,val_2022,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 5}",2.011163033115578,val_2022,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 15}",2.02892957354676,val_2022,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 30}",2.3552718420579293,val_2022,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 30}",2.3844761429684453,val_2022,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 15}",2.4727661182389813,val_2022,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 15}",2.535915770779474,val_2022,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 5}",2.540327595251626,val_2022,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 5}",2.583191285985908,val_2022,,,,
+Random_Forest,"{""max_depth"": 10, ""max_features"": 0.7, ""min_samples_leaf"": 8, ""n_estimators"": 150}",1.9992051907990709,val_2022,,,,
+Random_Forest,"{""max_depth"": null, ""max_features"": 0.7, ""min_samples_leaf"": 8, ""n_estimators"": 150}",2.0102675081522494,val_2022,,,,
+Random_Forest,"{""max_depth"": 10, ""max_features"": 0.7, ""min_samples_leaf"": 2, ""n_estimators"": 150}",2.4089418121355264,val_2022,,,,
+Random_Forest,"{""max_depth"": null, ""max_features"": 0.7, ""min_samples_leaf"": 2, ""n_estimators"": 150}",2.460626941287849,val_2022,,,,
+Prophet,"{""changepoint_prior_scale"": 0.05, ""seasonality_prior_scale"": 10.0}",1.9887127306166577,val_2022,,,,
+Prophet,"{""changepoint_prior_scale"": 0.05, ""seasonality_prior_scale"": 1.0}",1.9918727610466025,val_2022,,,,
+Prophet,"{""changepoint_prior_scale"": 0.01, ""seasonality_prior_scale"": 1.0}",2.0040496231888736,val_2022,,,,
+Prophet,"{""changepoint_prior_scale"": 0.01, ""seasonality_prior_scale"": 10.0}",2.0089357320397223,val_2022,,,,
+Prophet,"{""changepoint_prior_scale"": 0.2, ""seasonality_prior_scale"": 1.0}",3.227950857122065,val_2022,,,,
+Prophet,"{""changepoint_prior_scale"": 0.2, ""seasonality_prior_scale"": 10.0}",3.4379283812982,val_2022,,,,
+Ridge_AR,"{""alpha"": 100.0}",1.886371890338833,val_2023,,,,
+Ridge_AR,"{""alpha"": 10.0}",1.8921737282037407,val_2023,,,,
+Ridge_AR,"{""alpha"": 1.0}",1.893216295658848,val_2023,,,,
+Ridge_AR,"{""alpha"": 0.1}",1.8933314576445857,val_2023,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 15}",1.9768735618455453,val_2023,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 30}",1.97729874212719,val_2023,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 5}",1.9797555406496743,val_2023,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 30}",2.06612483637742,val_2023,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 30}",2.071057765719261,val_2023,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 15}",2.157346740110177,val_2023,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 15}",2.1665531754604883,val_2023,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 5}",2.3434458466915618,val_2023,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 5}",2.812669541541536,val_2023,,,,
+Random_Forest,"{""max_depth"": null, ""max_features"": 0.7, ""min_samples_leaf"": 8, ""n_estimators"": 150}",1.9803570397609664,val_2023,,,,
+Random_Forest,"{""max_depth"": 10, ""max_features"": 0.7, ""min_samples_leaf"": 8, ""n_estimators"": 150}",1.9879646058769915,val_2023,,,,
+Random_Forest,"{""max_depth"": 10, ""max_features"": 0.7, ""min_samples_leaf"": 2, ""n_estimators"": 150}",2.061468158546195,val_2023,,,,
+Random_Forest,"{""max_depth"": null, ""max_features"": 0.7, ""min_samples_leaf"": 2, ""n_estimators"": 150}",2.0940226751114595,val_2023,,,,
+Prophet,"{""changepoint_prior_scale"": 0.01, ""seasonality_prior_scale"": 10.0}",2.0500581919288114,val_2023,,,,
+Prophet,"{""changepoint_prior_scale"": 0.01, ""seasonality_prior_scale"": 1.0}",2.0547633271847894,val_2023,,,,
+Prophet,"{""changepoint_prior_scale"": 0.05, ""seasonality_prior_scale"": 10.0}",2.3443752795355888,val_2023,,,,
+Prophet,"{""changepoint_prior_scale"": 0.05, ""seasonality_prior_scale"": 1.0}",2.3466762326375417,val_2023,,,,
+Prophet,"{""changepoint_prior_scale"": 0.2, ""seasonality_prior_scale"": 10.0}",2.482074168400843,val_2023,,,,
+Prophet,"{""changepoint_prior_scale"": 0.2, ""seasonality_prior_scale"": 1.0}",2.489760150776717,val_2023,,,,
+Ridge_AR,"{""alpha"": 100.0}",2.105906241503481,test_2024H1,,,,
+Ridge_AR,"{""alpha"": 10.0}",2.10982727559336,test_2024H1,,,,
+Ridge_AR,"{""alpha"": 1.0}",2.1103542437522247,test_2024H1,,,,
+Ridge_AR,"{""alpha"": 0.1}",2.1104085825576293,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 15}",2.2200976935329044,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 30}",2.22134152196798,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 5}",2.241766616538556,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": 5, ""min_samples_leaf"": 15}",2.2432023144036077,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 30}",2.272817753738731,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 30}",2.2992837580115366,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": 10, ""min_samples_leaf"": 5}",2.406912550727123,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 15}",2.4442518456341102,test_2024H1,,,,
+Decision_Tree,"{""max_depth"": null, ""min_samples_leaf"": 5}",2.753500703650899,test_2024H1,,,,
+Random_Forest,"{""max_depth"": 10, ""max_features"": 0.7, ""min_samples_leaf"": 8, ""n_estimators"": 150}",2.1228375995824336,test_2024H1,,,,
+Random_Forest,"{""max_depth"": null, ""max_features"": 0.7, ""min_samples_leaf"": 8, ""n_estimators"": 150}",2.135090332012932,test_2024H1,,,,
+Random_Forest,"{""max_depth"": 10, ""max_features"": 0.7, ""min_samples_leaf"": 2, ""n_estimators"": 150}",2.140570649155314,test_2024H1,,,,
+Random_Forest,"{""max_depth"": null, ""max_features"": 0.7, ""min_samples_leaf"": 2, ""n_estimators"": 150}",2.1878294396443425,test_2024H1,,,,
+Prophet,"{""changepoint_prior_scale"": 0.01, ""seasonality_prior_scale"": 1.0}",2.077321919241348,test_2024H1,,,,
+Prophet,"{""changepoint_prior_scale"": 0.01, ""seasonality_prior_scale"": 10.0}",2.079816537408085,test_2024H1,,,,
+Prophet,"{""changepoint_prior_scale"": 0.05, ""seasonality_prior_scale"": 1.0}",2.22356764851606,test_2024H1,,,,
+Prophet,"{""changepoint_prior_scale"": 0.05, ""seasonality_prior_scale"": 10.0}",2.224363004349897,test_2024H1,,,,
+Prophet,"{""changepoint_prior_scale"": 0.2, ""seasonality_prior_scale"": 10.0}",2.281669621286702,test_2024H1,,,,
+Prophet,"{""changepoint_prior_scale"": 0.2, ""seasonality_prior_scale"": 1.0}",2.285675192178167,test_2024H1,,,,
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.7079964440324344,val_2022,,Ambagan(ctg),True,274.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",1.7094945088613445,val_2022,,Ambagan(ctg),True,174.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",1.7100594032331022,val_2022,,Ambagan(ctg),True,296.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.7175181861024806,val_2022,,Ambagan(ctg),True,123.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.996287032771175,val_2022,,Ambagan(ctg),True,46.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.7598659289563456,val_2022,,Dhaka,True,116.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",1.7634297523201625,val_2022,,Dhaka,True,161.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",2.0511936204469046,val_2022,,Dhaka,True,19.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.405106498807225,val_2022,,Dhaka,True,53.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",2.4274991974794426,val_2022,,Dhaka,True,40.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.8387002464409936,val_2022,,Gopalgonj,True,95.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.8425760745559627,val_2022,,Gopalgonj,True,175.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",1.8429785251538435,val_2022,,Gopalgonj,True,232.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.9677623781008617,val_2022,,Gopalgonj,True,77.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.3783011007123602,val_2022,,Gopalgonj,True,49.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.5340312378669552,val_2022,,Rajshahi,True,85.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",1.5507725676719855,val_2022,,Rajshahi,True,281.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.6689409760449225,val_2022,,Rajshahi,True,107.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",2.0322666351336913,val_2022,,Rajshahi,True,58.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.2232271031868795,val_2022,,Rajshahi,True,12.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.6062963155666021,val_2022,,Rangpur,True,80.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",1.6202274991443233,val_2022,,Rangpur,True,183.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.6755120742690996,val_2022,,Rangpur,True,90.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.1173093942646637,val_2022,,Rangpur,True,57.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",2.1248241945338657,val_2022,,Rangpur,True,56.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.9124889653378505,val_2022,,Sylhet,True,205.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",1.913561812564987,val_2022,,Sylhet,True,114.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.9183883502989936,val_2022,,Sylhet,True,77.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",1.925758221045362,val_2022,,Sylhet,True,244.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",inf,val_2022,,Sylhet,False,80.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",2.0232736852673994,val_2023,,Ambagan(ctg),True,58.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.059209488148883,val_2023,,Ambagan(ctg),True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.1730563432253387,val_2023,,Ambagan(ctg),True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",2.3393711684778564,val_2023,,Ambagan(ctg),True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",inf,val_2023,,Ambagan(ctg),False,88.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.8202139398643178,val_2023,,Dhaka,True,182.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.8204907305751887,val_2023,,Dhaka,True,85.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.909027429233849,val_2023,,Dhaka,True,99.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.172792782169369,val_2023,,Dhaka,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.2319285981224843,val_2023,,Dhaka,True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.753839636375864,val_2023,,Gopalgonj,True,68.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.756146787683597,val_2023,,Gopalgonj,True,179.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.7648192215303455,val_2023,,Gopalgonj,True,67.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",1.961093609875341,val_2023,,Gopalgonj,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.0503669332711576,val_2023,,Gopalgonj,True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.7883279599227648,val_2023,,Rajshahi,True,169.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.7947787200737313,val_2023,,Rajshahi,True,64.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.8208554711887397,val_2023,,Rajshahi,True,98.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.1171792745958964,val_2023,,Rajshahi,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.295323358028205,val_2023,,Rajshahi,True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.772842909769554,val_2023,,Rangpur,True,120.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.7745942342620131,val_2023,,Rangpur,True,57.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.8335422281007672,val_2023,,Rangpur,True,83.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.285747097293602,val_2023,,Rangpur,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.5138923340412456,val_2023,,Rangpur,True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",2.3165600467428655,val_2023,,Sylhet,True,48.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",2.318851966310486,val_2023,,Sylhet,True,127.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",2.551462479918854,val_2023,,Sylhet,True,34.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.9567219540978957,val_2023,,Sylhet,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",3.0504714770617314,val_2023,,Sylhet,True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.9611745320188207,test_2024H1,,Ambagan(ctg),True,159.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",2.0104237626790296,test_2024H1,,Ambagan(ctg),True,81.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.5936416344265667,test_2024H1,,Ambagan(ctg),True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.72240200605622,test_2024H1,,Ambagan(ctg),True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",2.898080056895065,test_2024H1,,Ambagan(ctg),True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.89176804432677,test_2024H1,,Dhaka,True,116.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.8933078062637716,test_2024H1,,Dhaka,True,50.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.9286808046980768,test_2024H1,,Dhaka,True,79.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.5038068362757007,test_2024H1,,Dhaka,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.5919953983108863,test_2024H1,,Dhaka,True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.9476538929121976,test_2024H1,,Gopalgonj,True,122.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.951603371770985,test_2024H1,,Gopalgonj,True,49.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.5224676360475615,test_2024H1,,Gopalgonj,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.651430013343892,test_2024H1,,Gopalgonj,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",inf,test_2024H1,,Gopalgonj,False,28.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",1.8660660096764297,test_2024H1,,Rajshahi,True,63.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",1.8941925253926863,test_2024H1,,Rajshahi,True,52.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",1.9015632555359643,test_2024H1,,Rajshahi,True,184.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",2.3354841934884076,test_2024H1,,Rajshahi,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",2.4488046973592508,test_2024H1,,Rajshahi,True,1.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",2.1339268094547914,test_2024H1,,Rangpur,True,153.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",2.140716912840356,test_2024H1,,Rangpur,True,49.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",3.0376186627456114,test_2024H1,,Rangpur,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",3.182894566239956,test_2024H1,,Rangpur,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",inf,test_2024H1,,Rangpur,False,26.0
+Dynamic_ARIMA,"{""order"": [1, 0, 0]}",2.1639798187482033,test_2024H1,,Sylhet,True,36.0
+Dynamic_ARIMA,"{""order"": [1, 0, 1]}",2.1900998929415625,test_2024H1,,Sylhet,True,112.0
+Dynamic_ARIMA,"{""order"": [2, 0, 1]}",2.380075415659608,test_2024H1,,Sylhet,True,41.0
+Dynamic_ARIMA,"{""order"": [3, 0, 0]}",3.017671244872332,test_2024H1,,Sylhet,True,1.0
+Dynamic_ARIMA,"{""order"": [2, 0, 0]}",3.0937581869588064,test_2024H1,,Sylhet,True,1.0

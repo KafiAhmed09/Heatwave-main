@@ -1,0 +1,38 @@
+{
+  "prediction_rows": 49248,
+  "expected_prediction_rows": 49248,
+  "model_set_matches": true,
+  "duplicate_forecast_keys": 0,
+  "missing_observations": 0,
+  "missing_predictions": 0,
+  "inconsistent_observations_across_models": 0,
+  "forecast_horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "fold_date_ranges": {
+    "test_2024H1": {
+      "start": "2024-01-01",
+      "end": "2024-06-30"
+    },
+    "val_2022": {
+      "start": "2022-01-01",
+      "end": "2022-12-31"
+    },
+    "val_2023": {
+      "start": "2023-01-01",
+      "end": "2023-12-31"
+    }
+  },
+  "maximum_mae_recalculation_difference": 4.440892098500626e-16,
+  "maximum_rmse_recalculation_difference": 4.440892098500626e-16,
+  "arima_delivered_station_fold_fits": 18,
+  "arima_all_delivered_fits_converged": true,
+  "arima_fallback_station_fold_fits": 2,
+  "all_critical_checks_pass": true
+}

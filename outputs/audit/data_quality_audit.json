@@ -1,0 +1,23 @@
+{
+  "source_file": "cleandata.csv",
+  "rows": 12048,
+  "columns": 5,
+  "stations": 6,
+  "start_date": "2019-01-01",
+  "end_date": "2024-06-30",
+  "calendar_days_per_station": 2008,
+  "null_cells": 0,
+  "exact_duplicate_rows": 0,
+  "duplicate_station_dates": 0,
+  "invalid_tmax_below_tmin": 1,
+  "tavg_outside_tmin_tmax": 72,
+  "tavg_midpoint_abs_error_mean": 0.8188039508632139,
+  "tavg_midpoint_abs_error_max": 5.5,
+  "tmax_min": 13.9,
+  "tmax_max": 43.0,
+  "complete_daily_calendar_all_stations": true,
+  "analysis_target": "TMAX",
+  "primary_heatwave_definition": "TMAX > 36 C for at least 3 consecutive station-days",
+  "sensitivity_heatwave_definition": "TMAX >= 36 C for at least 3 consecutive station-days",
+  "spatial_coverage_caveat": "Station-level data cannot test BMD's large-area declaration component."
+}
